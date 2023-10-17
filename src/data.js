@@ -1,52 +1,61 @@
+export const experience = [
+  {
+    role: "Site Reliability Engineer II",
+    company: "Indeed.com",
+    dates: "July 2022 - March 2023",
+    description: "",
+  },
+  {
+    role: "Sr. Software Engineer",
+    company: "CPSI",
+    dates: "September 2013 - July 2022",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  },
+  {
+    role: "CTO",
+    company: "Sweetbid.com",
+    dates: "June 2012 - August 2013",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+  },
+  {
+    role: "Computer Science, Bachelor of Science",
+    company: "SUNY University at Buffalo",
+    dates: "May 2012",
+    description: "",
+  },
+]
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Portfolio Website",
+    tech: "React | Tailwind | Netlify",
+    tech2: "Stable Diffusion | ControlNet",
+    description:
+      "This website was built with React and styled with Tailwind. The background art was generated using Stable Diffusion and ControlNet. Hosted on Netlify, source code available on my github.",
+  },
+  {
+    title: "Realtime Auction Microservice",
+    tech: "AWS | Node.js",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "AWS Migrations",
+    tech: "AWS | Kubernetes | Docker | Python | PHP",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "FHIR API",
+    tech: "Java  | Jetty | Postgres",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "OAuth Authorization Server",
+    tech: "Java Jetty Postgres",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
   },
 ];
 

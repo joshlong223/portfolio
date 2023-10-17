@@ -4,22 +4,62 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Space from "./components/Space";
+import Experience from "./components/Experience";
 import { Parallax } from 'react-parallax';
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-500 body-font">
+    <main className="text-gray-400 bg-gray-700 body-font">
       <Navbar />
-      <Parallax
-        blur={{ min: -25, max: 25 }}
-        bgImage="./lionhd.png"
-        strength={200}
-      >
-        <About />
-        <Skills />
-        <Contact />
-      </Parallax>
-      
-    </main>
+ 
+
+        <div className="flex justify-center">
+          <div className="max-w-4xl">
+            
+            <Parallax
+              blur={{ min: -20, max: 3 }}
+              bgImage="./lion6.png"
+              strength={250}
+            >
+              <About />
+            </Parallax>
+            <Space />
+            <Parallax
+              blur={{ min: -5, max: 10 }}
+              bgImage="./lion4.png"
+              strength={150}
+            >
+              <Skills />
+            </Parallax>
+            <Space />
+            <Parallax
+              blur={{ min: -5, max: 10 }}
+              bgImage="./lion3.png"
+              strength={150}
+            >
+              <Projects />
+            </Parallax>
+            <Space />
+            <Parallax
+              blur={{ min: -5, max: 10 }}
+              bgImage="./lion2.png"
+              strength={150}
+            >
+              <Experience />
+            </Parallax>
+            <Space />
+            <Parallax
+              blur={{ min: -20, max: 0 }}
+              bgImage="./lion7.png"
+              strength={250}
+            >
+              <Contact />
+            </Parallax>
+            <Space />
+          </div>
+        </div>
+  
+    </main >
   );
 }
