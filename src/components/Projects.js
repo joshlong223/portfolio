@@ -12,27 +12,27 @@ export default function Projects() {
                         Projects
                     </h1>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap w-full text-center">
                     {projects.map((project) => (
-                        <a
-                            href={project.link}
-                            key={project.image}
-                            className="sm:w-1/2 w-100 p-4">
-                            <div className="flex relative">
-                                <div className="w-full relative bg-gray-800 rounded bg-opacity-40 hover:bg-opacity-70 hover:text-gray-200">
-                                    <h1 className="title-font text-lg font-medium text-white mb-3">
-                                        {project.title}
-                                    </h1>
-                                    <p className="leading-relaxed">{project.description}</p>
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">
-                                        {project.tech}
-                                    </h2>
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">
-                                        {project.tech2}
-                                    </h2>
-                                </div>
+                        <div className="py-1 px-10 w-full">
+                            <div className="w-full relative bg-gray-800 rounded bg-opacity-30 hover:bg-opacity-70">
+                                <h1 className="title-font text-lg font-medium text-white ">
+                                    {project.title}
+                                </h1>
+                                <h2 className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                                    {project.description}
+                                </h2>
+                                <p className="tracking-widest text-sm title-font font-medium text-yellow-400">
+                                    {project.tech}
+                                </p>
+                                <p className="tracking-widest text-sm title-font font-medium text-yellow-400">
+                                    {project.tech2}
+                                </p>
+
                             </div>
-                        </a>
+                        </div>
+
+
                     ))}
                 </div>
             </div>

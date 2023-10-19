@@ -9,13 +9,13 @@ export const experience = [
     role: "Sr. Software Engineer",
     company: "CPSI",
     dates: "September 2013 - July 2022",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    description: "",
   },
   {
     role: "CTO",
     company: "Sweetbid.com",
     dates: "June 2012 - August 2013",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    description: "",
   },
   {
     role: "Computer Science, Bachelor of Science",
@@ -27,42 +27,91 @@ export const experience = [
 
 export const projects = [
   {
+    title: "AWS Migrations",
+    tech: "AWS   Kubernetes   Docker",
+    tech2: "Java   Python   PHP   Postgres",
+    description:
+      "Throughout my entire career I have been involved in various migrataions to AWS. I have successfully completed full lift-and-shift of existing applications, created complete cloud-based replacement systems from scratch, and everything inbetween.",
+  },
+  {
     title: "Portfolio Website",
-    tech: "React | Tailwind | Netlify",
-    tech2: "Stable Diffusion | ControlNet",
+    tech: "React   Tailwind   Netlify",
+    tech2: "Stable Diffusion   ControlNet",
     description:
       "This website was built with React and styled with Tailwind. The background art was generated using Stable Diffusion and ControlNet. Hosted on Netlify, source code available on my github.",
   },
   {
-    title: "Realtime Auction Microservice",
-    tech: "AWS | Node.js",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  },
-  {
-    title: "AWS Migrations",
-    tech: "AWS | Kubernetes | Docker | Python | PHP",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  },
-  {
     title: "FHIR API",
-    tech: "Java  | Jetty | Postgres",
+    tech: "Java    Jetty   Postgres",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "I designed architecture and lead teams to implement API for deliverying electronic medical records in compliance with the FHIR specification.",
   },
   {
     title: "OAuth Authorization Server",
-    tech: "Java Jetty Postgres",
+    tech: "Java   Jetty   Postgres",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "OAuth implementation for managing 3rd-party access to multi-tenant resource servers",
+  },
+  {
+    title: "Realtime Auction Microservices",
+    tech: "AWS   Node.js   Postgres",
+    description:
+      "Scalable microservices for processing bids and broadcasting realtime auction information. ",
   },
 ];
 
 export const skills = [
-  "Java",
-  "Python",
-  "Postgres",
-  "Bash",
-  "React",
+  {
+    category: "Backend",
+    skills: [
+      "Java   ",
+      "Python   ",
+      "Bash   ",
+      "PHP   ",
+      "COBOL",
+    ],
+  },
+  {
+    category: "Frontend",
+    skills: [
+      "React   ",
+      "Tailwind",
+    ],
+  },
+  {
+    category: "Monitoring & Alerts",
+    skills: [
+      "Prometheus   ",
+      "Grafana   ",
+      "Datadog   ",
+      "PagerDuty",
+    ],
+  },
+  {
+    category: "Deployment & Configuration",
+    skills: [
+      "Jenkins   ",
+      "Kubernetes   ",
+      "Docker   ",
+      "Terraform   ",
+      "Ansible",
+    ],
+  },
+  {
+    category: "Tools",
+    skills: [
+      "Git   ",
+      "Jira   ",
+      "Google Workspace",
+
+    ],
+  },
+  {
+    category: "Ideologies",
+    skills: [
+      "Agile   ",
+      "Scrum   ",
+      "Lean",
+    ],
+  },
 ];

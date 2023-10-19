@@ -20,7 +20,7 @@ export default function App() {
             <Parallax
               blur={{ min: -20, max: 3 }}
               bgImage="./lion6.png"
-              strength={250}
+              strength={350}
             >
               <About />
             </Parallax>
