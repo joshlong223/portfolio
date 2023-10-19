@@ -12,7 +12,7 @@ export const experience = [
     description: "",
   },
   {
-    role: "CTO",
+    role: "Head of Development",
     company: "Sweetbid.com",
     dates: "June 2012 - August 2013",
     description: "",
@@ -27,9 +27,15 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Serverless GPT",
+    tech: "Lambda OpenAi Redis Aiven",
+    description:
+      "Connecting OpenAI API with an Aiven managed Redis database using Lambda functions. This framework enables fast prototyping of solutions that utilize llm completions.",
+  },
+  {
     title: "AWS Migrations",
     tech: "AWS   Kubernetes   Docker",
-    tech2: "Java   Python   PHP   Postgres",
+    tech2: "Java   Python   PHP   PostgreSQL",
     description:
       "Throughout my entire career I have been involved in various migrataions to AWS. I have successfully completed full lift-and-shift of existing applications, created complete cloud-based replacement systems from scratch, and everything inbetween.",
   },
@@ -42,19 +48,19 @@ export const projects = [
   },
   {
     title: "FHIR API",
-    tech: "Java    Jetty   Postgres",
+    tech: "Java    Jetty   PostgreSQL",
     description:
       "I designed architecture and lead teams to implement API for deliverying electronic medical records in compliance with the FHIR specification.",
   },
   {
     title: "OAuth Authorization Server",
-    tech: "Java   Jetty   Postgres",
+    tech: "Java   Jetty   PostgreSQL",
     description:
       "OAuth implementation for managing 3rd-party access to multi-tenant resource servers",
   },
   {
     title: "Realtime Auction Microservices",
-    tech: "AWS   Node.js   Postgres",
+    tech: "AWS   Node.js   PostgreSQL",
     description:
       "Scalable microservices for processing bids and broadcasting realtime auction information. ",
   },
@@ -66,6 +72,8 @@ export const skills = [
     skills: [
       "Java   ",
       "Python   ",
+      "Lambda ",
+      "Node.js ",
       "Bash   ",
       "PHP   ",
       "COBOL",
@@ -76,6 +84,15 @@ export const skills = [
     skills: [
       "React   ",
       "Tailwind",
+    ],
+  },
+  {
+    category: "Database",
+    skills: [
+      "PostgreSQL ",
+      "Redis ",
+      "Cassandra ",
+      "DynamoDB",
     ],
   },
   {
@@ -98,11 +115,30 @@ export const skills = [
     ],
   },
   {
+    category: "AI",
+    skills: [
+      "OpenAI   ",
+      "Langchain ",
+      "Stable Diffusion   ",
+      "Controlnet ",
+
+    ],
+  },
+  {
     category: "Tools",
     skills: [
       "Git   ",
       "Jira   ",
       "Google Workspace",
+
+    ],
+  },
+  {
+    category: "Cloud",
+    skills: [
+      "AWS ",
+      "Netlify  ",
+      "Aiven",
 
     ],
   },
