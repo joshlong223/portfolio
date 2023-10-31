@@ -12,7 +12,7 @@ export const experience = [
     description: "",
   },
   {
-    role: "Head of Development",
+    role: "Chief Technology Officer",
     company: "Sweetbid.com",
     dates: "June 2012 - August 2013",
     description: "",
