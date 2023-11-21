@@ -70,19 +70,21 @@ export const skills = [
   {
     category: "Backend",
     skills: [
-      "Java   ",
-      "Python   ",
+      "Java ",
+      "Python ",
+      "Go ",
       "Lambda ",
       "Node.js ",
-      "Bash   ",
-      "PHP   ",
+      "Bash ",
+      "C++ ",
+      "PHP ",
       "COBOL",
     ],
   },
   {
     category: "Frontend",
     skills: [
-      "React   ",
+      "React ",
       "Tailwind",
     ],
   },
@@ -98,28 +100,28 @@ export const skills = [
   {
     category: "Monitoring & Alerts",
     skills: [
-      "Prometheus   ",
-      "Grafana   ",
-      "Datadog   ",
+      "Prometheus ",
+      "Grafana ",
+      "Datadog ",
       "PagerDuty",
     ],
   },
   {
     category: "Deployment & Configuration",
     skills: [
-      "Jenkins   ",
-      "Kubernetes   ",
-      "Docker   ",
-      "Terraform   ",
+      "Jenkins ",
+      "Kubernetes ",
+      "Docker ",
+      "Terraform ",
       "Ansible",
     ],
   },
   {
     category: "AI",
     skills: [
-      "OpenAI   ",
+      "OpenAI ",
       "Langchain ",
-      "Stable Diffusion   ",
+      "Stable Diffusion ",
       "Controlnet ",
 
     ],
@@ -127,8 +129,8 @@ export const skills = [
   {
     category: "Tools",
     skills: [
-      "Git   ",
-      "Jira   ",
+      "Git ",
+      "Jira ",
       "Google Workspace",
 
     ],
@@ -137,7 +139,7 @@ export const skills = [
     category: "Cloud",
     skills: [
       "AWS ",
-      "Netlify  ",
+      "Netlify ",
       "Aiven",
 
     ],
@@ -145,8 +147,8 @@ export const skills = [
   {
     category: "Ideologies",
     skills: [
-      "Agile   ",
-      "Scrum   ",
+      "Agile ",
+      "Scrum ",
       "Lean",
     ],
   },
