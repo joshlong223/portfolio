@@ -6,14 +6,13 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Space from "./components/Space";
 import Experience from "./components/Experience";
+import Services from "./components/Services"
 import { Parallax } from 'react-parallax';
 
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-700 body-font">
       <Navbar />
- 
-
         <div className="flex justify-center">
           <div className="max-w-4xl">
             
@@ -26,11 +25,19 @@ export default function App() {
             </Parallax>
             <Space />
             <Parallax
-              blur={{ min: -5, max: 10 }}
+              blur={{ min: -7, max: 10 }}
               bgImage="./lion4.png"
               strength={150}
             >
-              <Skills />
+              <Services />
+            </Parallax>
+            <Space />
+            <Parallax
+              blur={{ min: -5, max: 10 }}
+              bgImage="./lion2.png"
+              strength={150}
+            >
+              <Experience />
             </Parallax>
             <Space />
             <Parallax
@@ -43,10 +50,10 @@ export default function App() {
             <Space />
             <Parallax
               blur={{ min: -5, max: 10 }}
-              bgImage="./lion2.png"
+              bgImage="./lion5.png"
               strength={150}
             >
-              <Experience />
+              <Skills />
             </Parallax>
             <Space />
             <Parallax

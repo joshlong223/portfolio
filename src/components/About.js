@@ -16,13 +16,13 @@ export default function About() {
           </Parallax>
           <Parallax strength={250} >
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Agile
+            Technology
             <br className="hidden lg:inline-block" />
           </h1>
           </Parallax>
           <Parallax strength={950} >
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Development
+            Consulting
             <br className="hidden lg:inline-block mb-128" />
           </h1> 
         </Parallax>

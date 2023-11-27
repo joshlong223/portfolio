@@ -25,6 +25,39 @@ export const experience = [
   },
 ]
 
+export const services = [
+  {
+    title: "Custom Software Development",
+    tech: "",
+    description:
+      "Transform your ideas into reality with custom software development. Whether it's a user-friendly web application, a cutting-edge mobile app, or an enterprise-level solution, I deliver tailored software that aligns with your business objectives.",
+  },
+  {
+    title: "Cloud Solutions and Migration",
+    tech: "",
+    description:
+      "Harness the power of the cloud for increased scalability and efficiency. I specialize in cloud solutions and seamless migration, ensuring your business takes full advantage of leading cloud platforms tailored to your requirements.",
+  },
+  {
+    title: "Strategic Technology Consulting",
+    tech: "",
+    description:
+      "Empower your business with strategic technology consulting tailored to your unique needs. From optimizing IT infrastructure to crafting robust software architectures, I provide insights and roadmaps to drive your business forward.",
+  },
+  {
+    title: "Artificial Intelligence Solutions",
+    tech: "",
+    description:
+      "Leverage the power of artificial intelligence for your business. From private offline AI powered by your data to the next million user AI web app, I develop custom AI solutions that enhance efficiency and drive innovation.",
+  },
+  {
+    title: "QR Code Art",
+    tech: "",
+    description:
+      "Experience the intersection of technology and creativity with QR code art. I generate fascinating artwork that funtions as a QR code that a phone can scan to connect to a website or wifi network.",
+  },
+]
+
 export const projects = [
   {
     title: "Serverless GPT",
@@ -117,7 +150,7 @@ export const skills = [
     ],
   },
   {
-    category: "AI",
+    category: "Artificial Intelligence",
     skills: [
       "OpenAI ",
       "Langchain ",
@@ -131,6 +164,7 @@ export const skills = [
     skills: [
       "Git ",
       "Jira ",
+      "Obsidian.md ",
       "Google Workspace",
 
     ],
