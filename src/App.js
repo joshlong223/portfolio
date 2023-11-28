@@ -25,9 +25,9 @@ export default function App() {
             </Parallax>
             <Space />
             <Parallax
-              blur={{ min: -7, max: 8 }}
-              bgImage="./lion2.png"
-              strength={450}
+              blur={{ min: -7, max: 5 }}
+              bgImage="./lion5.png"
+              strength={150}
             >
               <Services />
             </Parallax>
@@ -50,7 +50,7 @@ export default function App() {
             <Space />
             <Parallax
               blur={{ min: -5, max: 7 }}
-              bgImage="./lion5.png"
+              bgImage="./lion2.png"
               strength={200}
             >
               <Skills />

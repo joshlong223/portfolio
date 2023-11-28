@@ -8,7 +8,7 @@ export default function Contact() {
                 <div className="py-1 px-20 w-full">
                     <div className="w-full relative bg-gray-800 rounded bg-opacity-50">
                         <div className="container px-5 py-10 mx-auto rounded bg-gray-800 bg-opacity-20 text-center lg:px-40">
-                            <div className="flex flex-col w-full mb-20">
+                            <div className="flex flex-col w-full mb-10">
                                 <ChatIcon className="mx-auto inline-block w-10 mb-4" />
                                 <h2 className="text-white sm:text-4xl text-3xl font-medium title-font">
                                     Contact

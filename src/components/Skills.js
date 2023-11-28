@@ -5,15 +5,15 @@ import { skills } from "../data";
 export default function Skills() {
     return (
         <section id="skills">
-            <div className="container px-5 py-10 mx-auto bg-gray-800 bg-opacity-20">
-                <div className="text-center mb-20">
+            <div className="container px-5 py-10 mx-auto  bg-gray-800 bg-opacity-20">
+                <div className="text-center mb-10">
                     <ChipIcon className="w-10 inline-block mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-1">
                         Skills
                     </h1>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto">
-                    <div className="py-1 px-10 w-full text-center">
+                    <div className="py-1 px-20 w-full text-center">
 
                         {skills.map((category) => (
                             <div className="py-1">

@@ -6,13 +6,15 @@ export default function Projects() {
     return (
         <section id="projects" className="text-gray-300 body-font">
             <div className="container px-5 py-10 mx-auto bg-gray-800 bg-opacity-20 text-center">
-                <div className="flex flex-col w-full mb-20">
+                <div className="flex flex-col w-full mb-10">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Projects
                     </h1>
                 </div>
-                <div className="flex flex-wrap w-full px-20 text-center">
+                <div className="flex flex-wrap lg:w-4/5 sm:mx-auto">
+                    <div className="py-1 px-20 w-full text-center">
+
                     {projects.map((project) => (
                         <div className="py-1 px-10 w-full">
                             <div className="w-full relative bg-gray-800 rounded bg-opacity-50 hover:bg-opacity-70">
@@ -37,6 +39,7 @@ export default function Projects() {
 
 
                     ))}
+                    </div>
                 </div>
             </div>
         </section>
