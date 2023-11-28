@@ -4,8 +4,8 @@ import { services } from "../data";
 
 export default function Services() {
     return (
-        <section id="services" className="text-gray-400 body-font">
-            <div className="container px-5 py-10 mx-auto rounded bg-gray-800 bg-opacity-60 text-center lg:px-40">
+        <section id="services" className="text-gray-300 body-font">
+            <div className="container px-5 py-10 mx-auto rounded bg-gray-800 bg-opacity-20 text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <DotsCircleHorizontalIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -15,7 +15,7 @@ export default function Services() {
                 <div className="flex flex-wrap w-full text-center">
                     {services.map((service) => (
                         <div className="py-1 px-10">
-                            <div className="relative bg-gray-800 rounded bg-opacity-30 hover:bg-opacity-70">
+                            <div className="relative bg-gray-800 rounded bg-opacity-50 hover:bg-opacity-70">
                                 <h1 className="title-font pt-4 text-lg font-medium text-white ">
                                     {service.title}
                                 </h1>

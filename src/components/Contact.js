@@ -4,7 +4,7 @@ import React from "react";
 export default function Contact() {
     return (
         <section id="contact" className="text-center">
-            <div className="container px-5 py-10 mx-auto rounded bg-gray-800 bg-opacity-60 text-center lg:px-40">
+            <div className="container px-5 py-10 mx-auto rounded bg-gray-800 bg-opacity-20 text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <ChatIcon className="mx-auto inline-block w-10 mb-4" />
                     <h2 className="text-white sm:text-4xl text-3xl font-medium title-font">
