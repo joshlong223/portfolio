@@ -25,33 +25,33 @@ export default function App() {
             </Parallax>
             <Space />
             <Parallax
-              blur={{ min: -7, max: 10 }}
-              bgImage="./lion4.png"
-              strength={150}
+              blur={{ min: -7, max: 8 }}
+              bgImage="./lion2.png"
+              strength={450}
             >
               <Services />
             </Parallax>
             <Space />
             <Parallax
               blur={{ min: -5, max: 10 }}
-              bgImage="./lion2.png"
+              bgImage="./lion4.png"
               strength={150}
             >
               <Experience />
             </Parallax>
             <Space />
             <Parallax
-              blur={{ min: -5, max: 10 }}
+              blur={{ min: -7, max: 9 }}
               bgImage="./lion3.png"
-              strength={150}
+              strength={350}
             >
               <Projects />
             </Parallax>
             <Space />
             <Parallax
-              blur={{ min: -5, max: 10 }}
+              blur={{ min: -5, max: 7 }}
               bgImage="./lion5.png"
-              strength={150}
+              strength={200}
             >
               <Skills />
             </Parallax>
