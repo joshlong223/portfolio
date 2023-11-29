@@ -5,7 +5,7 @@ import { services } from "../data";
 export default function Services() {
     return (
         <section id="services" className="text-gray-300 body-font">
-            <div className="container px-5 py-10 mx-auto bg-gray-800 bg-opacity-20 text-center">
+            <div className="container md:px-5 py-10 mx-auto bg-gray-800 bg-opacity-20 text-center">
                 <div className="flex flex-col w-full mb-10">
                     <DotsCircleHorizontalIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
