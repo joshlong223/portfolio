@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Space from "./components/Space";
 import Experience from "./components/Experience";
-import Services from "./components/Services"
+//import Services from "./components/Services"
 import { Parallax } from 'react-parallax';
 
 export default function App() {
@@ -23,14 +23,14 @@ export default function App() {
             >
               <About />
             </Parallax>
-            <Space />
+            {/* <Space />
             <Parallax
               blur={{ min: -7, max: 5 }}
               bgImage="./lion5.png"
               strength={150}
             >
               <Services />
-            </Parallax>
+            </Parallax> */}
             <Space />
             <Parallax
               blur={{ min: -5, max: 10 }}

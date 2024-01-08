@@ -1,5 +1,4 @@
 import React from "react";
-import { Parallax } from 'react-parallax';
 
 export default function About() {
   return (

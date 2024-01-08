@@ -19,12 +19,12 @@ export default function Contact() {
                             </p>
                             <div className="flex justify-center">
                                 <a href="https://www.linkedin.com/in/josh-long223/">
-                                    <img className="object-cover object-center h-16 w-16"
+                                    <img alt='' className="object-cover object-center h-16 w-16"
                                         src="./In-White-128.png" />
                                 </a>
                                 <div className="w-3"></div>
                                 <a href="https://github.com/joshlong223">
-                                    <img className="object-cover object-center h-16 w-16"
+                                    <img alt='' className="object-cover object-center h-16 w-16"
                                         src="./github-mark-white.png" />
                                 </a>
                             </div>
